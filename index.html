@@ -6,21 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/style.css" rel="stylesheet">
   <link href="./css/calendario.css" rel="stylesheet">
-  <title>serviços</title>
+  <title>serviços1</title>
 </head>
 <body>
-  <header class="menu"></header>
+  <header class="menu"><b>HEADER</b></header>
   <main>
+   
     <div id="diarista"><img id="imagem_diarista" src="./imagens/Rectangle 3.png"></div>
     <div class="container">
     <div id="logo_diarista"><img id="faxineira1" src="./imagens/faxineira 1.png"></div>
-    <div id="texto_diarista">,<p class="txt_diarista">O profissional diarista é aquele trabalhador que presta serviços</p><p class="txt_diarista">ocasionais para um ou mais contratantes,<b>sem exceder duas vezes na</b></p><p class="txt_diarista"><b>semana para cada um.</b></p></div>
+    <div id="texto_diarista">,<p class="txt_diarista">O profissional diarista é aquele trabalhador que presta serviços ocasionais para um ou mais contratantes,<b>sem exceder duas vezes na</b><b>semana para cada um.</b></p></div>
     </div>
     <!-- div do agende visita, preço e calendário -->
     <div class="container_dois">
       <div id="visitante"><img id="img_visitante" src="./imagens/visitante 1.png"></div>
       <div><p class="txt_visita"><b>AGENDE UMA</p><p class="txt_visita">VISITA</b></p></div>
-      <div id="preço"><p class="preço"><b>R$49,90</b></p><p class="txt_preço">1 DIÁRIA DE SERVIÇO;</p><p class="txt_preço">1 PRODUTO BÔNUS.</p></div>
+      <div id="preço"><p class="preço"><b>Por apenas R$49,90</b></p><p class="txt_preço">1 DIÁRIA DE SERVIÇO;</p><p class="txt_preço">1 PRODUTO BÔNUS.</p><button id="botao_comprar"> COMPRE ESTE SERVIÇO</button></div>
+      
     </div>
 
     <!-- CALENDARIO -->
@@ -29,7 +31,7 @@
           <div id="header">
             <div id="monthDisplay"></div>
     
-            <div>
+            <div class="botoes">
               <button id="backButton">Voltar</button>
               <button id="nextButton">Próximo</button>
             </div>
@@ -54,9 +56,9 @@
       </div>
     
       <div id="newEventModal">
-        <h2>New Evente</h2>
+        <h2>Novo evento</h2>
     
-        <input id="eventTitleInput" placeholder="Event Title"/>
+        <input id="eventTitleInput" placeholder="digite aqui"/>
     
         <button id="saveButton"> Salvar</button>
         <button id="cancelButton">Cancelar</button>
