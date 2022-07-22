@@ -192,25 +192,34 @@ footer{
 .meiosdepagamento{
     display: flex;
  
-    width: 340px;
+    width:100%;
     height: 100px;
+    margin: auto;
     /* padding-left: 1080px; */
   
 }
 
+.foot{
+    display: flex;
+    flex-direction: row;
+    
+   align-items: center;
+margin: auto;
+}
 .logoDH{
-    position: absolute;
-    width: 3%;
-    padding-left: 820px;
-    padding-top: 4px;
+  
+    width:10%;
+margin-left: 10px;
+    /* padding-left: 820px;
+    padding-top: 4px; */
 }
 
 .agradece{
-    position: absolute;
+   
     color:white;
     font-weight: 200;
-    padding-left: 520px;
-    padding-top: 18px;
+    /* padding-left: 520px;
+    padding-top: 18px; */
 }
 
 
