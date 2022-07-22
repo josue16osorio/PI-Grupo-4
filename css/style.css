@@ -120,11 +120,7 @@ bottom: 15px;
 
 
 
-.itens{
-    padding-top: 27px;
-    padding-left: 55px;
-    color: white;
-}
+
 
 
 
@@ -142,42 +138,64 @@ bottom: 15px;
 
 
 
-/* main{
-    background-color: white;
+.footer_principal{
+    display: flex;
+    flex-direction: row;
 
-} */
+
+   
+
+}
+.hiper{
+    display: flex;
+    background: #10274E;
+    flex:3;
+    align-items: center;
+}
+.preFooter{
+   display: flex;
+    background: #10274E;
+    flex:1;
+    
+
+
+}
+
 
 footer{
+    display: flex;
     background-color: #10274E;
     height:55px;
 }
 
-.preFooter{
-    padding-left: 55px;
-    padding-top: 27px;
-    background: #1D3D73;
-}
+
 
 .socialmediapre{
+    display: flex;
+
     width: 160px;
     height: 30px;
     padding-top: 12px;
+    margin-left: 20px ;
 }
 
 .texto1{
-    padding-bottom: 10px;
+   margin-left: 20px ;
     color:white;
 }
 
 .texto2{
+    margin-left: 20px ;
     color:white;
 }
 
 .meiosdepagamento{
+    display: flex;
+ 
     width: 340px;
     height: 100px;
     /* padding-left: 1080px; */
-    position: absolute;
+  
 }
 
 .logoDH{
@@ -240,7 +258,7 @@ body{
 max-width: 1500px; */
 
     width: 90%;
-    height: 1000px;
+    height: 900px;
     background: rgb(167, 167, 196);
     border: 1px;
     padding: 20px;
